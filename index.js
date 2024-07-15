@@ -26,12 +26,10 @@ function formatLog (obj) {
   // delete log.pid;
   // delete log.hostname;
   return {
+    message: obj.msg,
     severity: getSeverity(obj.level),
     timestamp: obj.time,
-    jsonPayload: {
-      message: obj.msg,
-      context: log,
-    }
+    context: log,
   };
 }
 

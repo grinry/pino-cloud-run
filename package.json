@@ -1,6 +1,6 @@
 {
   "name": "pino-cloud-run",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Transforms Pino logs to structured Google Cloud Run logs",
   "main": "index.js",
   "scripts": {
