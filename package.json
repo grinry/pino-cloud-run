@@ -1,0 +1,24 @@
+{
+  "name": "pino-cloud-run",
+  "version": "0.0.1",
+  "description": "Transforms Pino logs to structured Google Cloud Run logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["pino", "cloud run", "logging"],
+  "author": {
+    "name": "Rytis Grincevicius",
+    "email": "rytis.grincevicius@gmail.com",
+    "url": "https://grinry.com"
+  },
+  "repository": {
+    "url": "https://github.com/grinry/pino-cloud-run"
+  },
+  "files": ["index.js"],
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "pino-abstract-transport": "^1.2.0"
+  }
+}
